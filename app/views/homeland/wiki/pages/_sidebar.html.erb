@@ -3,9 +3,11 @@
     <div class="card-body">
       <strong>导航</strong>
       <ul>
-        <li><a href="/wiki">首页</a></li>
-        <li><%= link_to(t("pages.wiki_index"), recent_pages_path) %></li>
-        <li class="hide-ios"><%= link_to(t("pages.new_page"), new_page_path)%></li>
+        <li><a href="/wiki/intro">普惠社区</a></li>
+        <li><a href="/wiki/copyright">隐私与版权</a></li>
+        <li><a href="/wiki/help">帮助中心</a></li>
+        <li><a href="/wiki/thanks">特别鸣谢</a></li>
+        <li><a href="/wiki/contact">联系我们</a></li>
       </ul>
 
       <%= raw Setting.wiki_sidebar_html %>
